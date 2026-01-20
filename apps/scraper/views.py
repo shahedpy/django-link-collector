@@ -17,7 +17,7 @@ def scrape(request):
         site_url = request.POST.get('site_url')
         if site_url:
             try:
-                page = requests.get(site_url)
+                page = requests.get(site_url, verify=False)
                 soup = BeautifulSoup(page.text, 'html.parser')
 
                 for link in soup.find_all('a'):
