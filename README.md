@@ -19,7 +19,7 @@ A simple Django app to collect and display links (scraper-based link collector).
 ## Prerequisites ✅
 
 - macOS (tested)
-- Python 3.11+ (recommended)
+- Python 3.12+ (recommended)
 - Git
 - (Optional) pyenv for managing multiple Python versions
 
