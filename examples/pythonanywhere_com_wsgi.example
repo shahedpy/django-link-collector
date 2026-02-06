@@ -1,7 +1,7 @@
 import os, sys
 
 # Path to your project
-path = '/home/shahedpy/django-link-collector'
+path = '/home/linkcollector/django-link-collector'
 if path not in sys.path:
     sys.path.append(path)
 
